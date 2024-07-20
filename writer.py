@@ -27,7 +27,7 @@ class ContentWriterApp:
         prom = self.prompt_entry.get()
 
         # Replace 'api-here' with your actual Google API key
-        GOOGLE_API_KEY = 'AIzaSyBNEGGeG5YYBxngflhN_ByP9Y3IAv-X-L8'
+        GOOGLE_API_KEY = 'API'
 
         genai.configure(api_key=GOOGLE_API_KEY)
         model = genai.GenerativeModel('gemini-pro')
